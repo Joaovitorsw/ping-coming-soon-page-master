@@ -123,3 +123,73 @@ body {
 .social-media img:hover {
   background-color: rgba(0, 0, 0, 0.383);
 }
+
+@media screen and (min-width: 600px) {
+  .main-content {
+    width: 100%;
+  }
+  .title {
+    font-size: 35px;
+  }
+  .paragraph {
+    font-size: 14px;
+  }
+  .input-card {
+    width: 550px;
+    flex-direction: row;
+
+    position: relative;
+  }
+  .email-input {
+    width: 100%;
+  }
+  .submit {
+    margin-left: 20px;
+    width: 60%;
+  }
+  .error {
+    position: absolute;
+    bottom: -35px;
+    left: 20px;
+  }
+  .dashboard {
+    margin: 50px 0px;
+    max-width: unset;
+    max-height: 350px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .main-content {
+    width: 100%;
+  }
+  .title {
+    font-size: 35px;
+  }
+  .paragraph {
+    font-size: 14px;
+  }
+  .input-card {
+    width: 550px;
+    flex-direction: row;
+
+    position: relative;
+  }
+  .email-input {
+    width: 100%;
+  }
+  .submit {
+    margin-left: 20px;
+    width: 60%;
+  }
+  .error {
+    position: absolute;
+    bottom: -35px;
+    left: 20px;
+  }
+  .dashboard {
+    margin: 50px 0px;
+    max-width: unset;
+    max-height: 350px;
+  }
+}
