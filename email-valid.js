@@ -7,3 +7,16 @@ const emailPattern =
 $submit.addEventListener("click", submitEmail);
 $emailInput.addEventListener("input", (text) => validEmail(text.target.value));
 
+function submitEmail() {
+  $emailInput.value = "";
+}
+
+function validEmail(text) {
+  if (emailPattern.test(text)) {
+    $emailInput.classList.remove("active");
+    $error.classList.remove("active");
+    return;
+  }
+  $emailInput.classList.add("active");
+  $error.classList.add("active");
+}
