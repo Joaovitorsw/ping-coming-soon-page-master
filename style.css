@@ -106,3 +106,20 @@ body {
   transform: scale(0.85);
 }
 
+.dashboard {
+  margin-top: 30px;
+  max-width: 300px;
+  max-height: 300px;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media img {
+  border-radius: 50%;
+  margin: 5px;
+}
+.social-media img:hover {
+  background-color: rgba(0, 0, 0, 0.383);
+}
