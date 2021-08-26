@@ -55,3 +55,54 @@ body {
 .error.active {
   display: initial;
 }
+
+.email-input.active {
+  border: 1.5px solid var(--secondary-color);
+}
+.submit {
+  box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.445);
+  font-weight: 600;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  transition: transform 50ms ease-in-out;
+}
+.submit:hover {
+  background-color: var(--primary-color-light);
+}
+.submit:active {
+  transform: scale(0.85);
+}
+
+.email-input,
+.submit {
+  outline: none;
+  font-family: "Libre Franklin", sans-serif;
+  padding: 12px;
+  margin: 5px 0;
+  border-radius: 20px;
+  border: none;
+}
+.email-input {
+  padding-left: 35px;
+  border: 1px solid var(--tertiary-color);
+}
+::placeholder {
+  color: var(--tertiary-color);
+}
+.email-input.active {
+  border: 1.5px solid var(--secondary-color);
+}
+.submit {
+  box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.445);
+  font-weight: 600;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  transition: transform 50ms ease-in-out;
+}
+.submit:hover {
+  background-color: var(--primary-color-light);
+}
+.submit:active {
+  transform: scale(0.85);
+}
+
