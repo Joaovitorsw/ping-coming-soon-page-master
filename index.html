@@ -16,28 +16,36 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img src="images/logo.svg" alt="logo" />
+    <img src="images/logo.svg" alt="logo" class="logo" />
     <div class="main-content">
       <h1 class="title">
         We are launching <span class="title-color">soon!</span>
       </h1>
       <p class="paragraph">Subscribe and get notified</p>
       <div class="input-card">
-        <input type="email" /><button class="submit">Notify Me</button>
+        <input
+          type="email"
+          class="email-input"
+          placeholder="Your email address..."
+        />
+        <span class="error">Please provide a valid email address</span>
+        <button class="submit">Notify Me</button>
       </div>
+      <img
+        src="images/illustration-dashboard.png"
+        alt="dashboard"
+        class="dashboard"
+      />
     </div>
-    <div class="social-midia">
-      <div class="icon-midia">
-        <img src="images/iconmonstr-facebook.svg" alt="facebook-icon" />
-        <img src="images/iconmonstr-twitter.svg" alt="twitter-icon" />
-        <img src="images/iconmonstr-instagram.svg" alt="instagram-icon" />
-      </div>
-      <span class="copyright">
-        &copy; Copyright Ping. All rights reserved.
-      </span>
+    <div class="social-media">
+      <img src="images/iconmonstr-facebook.svg" alt="facebook-icon" />
+      <img src="images/iconmonstr-twitter.svg" alt="twitter-icon" />
+      <img src="images/iconmonstr-instagram.svg" alt="instagram-icon" />
+    </div>
+    <script src="email-valid.js" defer></script>
   </body>
 </html>
